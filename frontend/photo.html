@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<h1>Gallery</h1>
+
+<!-- Form to upload photo -->
+<form id="uploadForm">
+    <input type="text" id="title" placeholder="Title" required>
+    <textarea id="description" placeholder="Description"></textarea>
+    <input type="file" id="image" accept="image/*" required>
+    <button type="submit">Upload</button>
+</form>
+
+<!-- Container for displaying photos -->
+<div id="photosContainer"></div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

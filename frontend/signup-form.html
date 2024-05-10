@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Sharing App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="signup-form" class="form-container-signup ">
+  <h2>Inscription</h2>
+  <form action="/auth/register" method="post">
+    <div class="form-group">
+      <label for="name">Nom complet</label>
+      <input type="text" id="name" name="username" placeholder="Entrez votre nom complet" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Entrez votre email" required>
+    </div>
+    <div class="form-group">
+      <label for="password">Mot de passe</label>
+      <input type="password" id="password" name="password" placeholder="Entrez votre mot de passe" required>
+    </div>
+    <button type="submit" class="btn"><a href="photo-list.html">S'inscrire</button></a>
+  </form>
+</div>
+<div class="login-link">
+  Déjà inscrit ? <a href="login-form.html">Se connecter</a>
+</div>
+</body>
+</html>
+
